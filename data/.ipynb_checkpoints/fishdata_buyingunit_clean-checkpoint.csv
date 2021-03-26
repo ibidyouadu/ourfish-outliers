@@ -1,0 +1,408 @@
+name,weight_units,weight_max,price_min,price_max,count_max
+Peje pluma,lbs,50.0,20.0,30.0,
+Atún / Bonito,lbs,60.0,20.0,25.0,
+Barracuda,kg,500.0,1.0,1000.0,500.0
+Sierra,lbs,100.0,15.0,40.0,
+Calale,lbs,200.0,25.0,60.0,150.0
+Mantequilla,lbs,50.0,20.0,90.0,20.0
+Robalo,lbs,200.0,25.0,50.0,
+Blanco/Ronco,lbs,200.0,15.0,25.0,
+Yalatel,lbs,400.0,25.0,60.0,150.0
+Rojo,lbs,150.0,25.0,35.0,
+Plectropomus laevis,kg,10.0,40000.0,110000.0,30.0
+Caguacha,lbs,200.0,15.0,25.0,
+Camarón,lbs,100.0,80.0,130.0,
+Caracol,lbs,100.0,40.0,150.0,
+Cubera,lbs,300.0,25.0,50.0,50.0
+Culila,lbs,300.0,15.0,35.0,100.0
+Jurel,lbs,3000.0,15.0,30.0,
+KingCrab,lbs,100.0,30.0,150.0,
+KingFish,lbs,100.0,20.0,50.0,10.0
+Langosta,lbs,100.0,50.0,460.0,
+Pargo,lbs,300.0,25.0,50.0,100.0
+King Crab,lbs,10.0,30.0,50.0,
+Pargo/Cubera,lbs,300.0,25.0,35.0,
+Long Tail Queen Snapper,lbs,100.0,25.0,35.0,
+Maya-maya,kg,6.0,100.0,160.0,10.0
+Mangagat,kg,4.0,50.0,100.0,25.0
+Plectropomus leopardus,kg,50.0,10000.0,400000.0,60.0
+Plectropomus areolatus,kg,35.0,10000.0,450000.0,30.0
+Mix Grouper 2,kg,10.0,20000.0,140000.0,30.0
+Mix Grouper 1,kg,15.0,10000.0,30000.0,30.0
+Cephalopholis miniata,kg,65.0,10000.0,400000.0,32.0
+Cephalopholis argus,kg,10.0,15000.0,200000.0,30.0
+Variola louti,kg,20.0,15000.0,200000.0,125.0
+Plectropomus maculatus,kg,45.0,10000.0,250000.0,30.0
+Variola albimarginata,kg,45.0,20000.0,100000.0,34.0
+Siganus puellus,kg,10.0,20000.0,40000.0,30.0
+Siganus guttatus,kg,30.0,5000.0,25000.0,100.0
+Plectropomus oligacanthus,kg,25.0,10000.0,140000.0,30.0
+Cromileptes altivelis,kg,10.0,20000.0,350000.0,30.0
+Aethaloperca rogaa,kg,20.0,15000.0,110000.0,30.0
+Lutjanus malabaricus,kg,35.0,3000.0,60000.0,80.0
+Pinjalo lewisi,kg,35.0,25000.0,40000.0,30.0
+Lutjanus vitta,kg,20.0,15000.0,60000.0,55.0
+Lutjanus johnii,kg,35.0,25000.0,50000.0,35.0
+Anyperodon leucogrammicus,kg,115.0,15000.0,80000.0,112.0
+Cephalopholis cyanostigma,kg,10.0,15000.0,30000.0,40.0
+Epinephelus ongus,kg,45.0,25000.0,140000.0,100.0
+Nematalosa come,kg,15.0,10000.0,20000.0,200.0
+Plotosus lineatus,kg,10.0,10000.0,50000.0,30.0
+Ellochelon vaigiensis,kg,10.0,10000.0,20000.0,30.0
+Upeneus moluccensis,kg,10.0,30000.0,40000.0,50.0
+Upeneus sulphureus,kg,10.0,10000.0,40000.0,30.0
+Upeneus vittatus,kg,10.0,10000.0,20000.0,30.0
+Kyphosus cinerascens,kg,10.0,10000.0,15000.0,30.0
+Kyphosus vaigiensis,kg,10.0,10000.0,20000.0,50.0
+Choerodon anchorago,kg,10.0,10000.0,20000.0,30.0
+Chlorurus capistratoides,kg,10.0,5000.0,30000.0,30.0
+Leptoscarus vaigiensis,kg,10.0,20000.0,30000.0,30.0
+Platax boersii,kg,10.0,5000.0,20000.0,50.0
+Siganus canaliculatus,kg,110.0,5000.0,20000.0,470.0
+Siganus javus,kg,60.0,10000.0,50000.0,120.0
+Siganus punctatus,kg,30.0,5000.0,50000.0,150.0
+Siganus spinus,kg,10.0,15000.0,30000.0,30.0
+Siganus virgatus,kg,10.0,10000.0,20000.0,30.0
+Acanthurus mata,kg,170.0,5000.0,40000.0,150.0
+Acanthurus triostegus,kg,10.0,25000.0,40000.0,50.0
+Naso annulatus,kg,10.0,15000.0,30000.0,50.0
+Sphyraena barracuda,kg,10.0,10000.0,30000.0,30.0
+Rastrelliger kanagurta,kg,10.0,1000.0,30000.0,500.0
+Diodon holocanthus,kg,10.0,10000.0,40000.0,30.0
+Diodon hystrix,kg,20.0,5000.0,20000.0,30.0
+Hemiramphus far,kg,300.0,5000.0,20000.0,1000.0
+Ablennes hians,kg,100.0,10000.0,50000.0,30.0
+Hyporhamphus dussumieri,kg,20.0,10000.0,20000.0,420.0
+Myripristis berndti,kg,15.0,35000.0,50000.0,30.0
+Myripristis chryseres,kg,15.0,10000.0,20000.0,30.0
+Neoniphon sammara,kg,10.0,20000.0,30000.0,50.0
+Sargocentron punctatissimum,kg,15.0,20000.0,30000.0,48.0
+Scomberoides tol,kg,10.0,10000.0,40000.0,35.0
+Selar crumenophthalmus,kg,10.0,15000.0,40000.0,60.0
+Lutjanus fulviflamma,kg,15.0,15000.0,20000.0,30.0
+Caesio teres,kg,10.0,10000.0,30000.0,30.0
+Caesio caerulaurea,kg,15.0,1000.0,20000.0,57.0
+Gerres macracanthus,kg,10.0,10000.0,20000.0,30.0
+Gerres oyena,kg,10.0,10000.0,20000.0,48.0
+Gerres shima,kg,10.0,5000.0,30000.0,75.0
+Lethrinus harak,kg,10.0,10000.0,20000.0,59.0
+Lethrinus microdon,kg,20.0,10000.0,60000.0,73.0
+Lethrinus ornatus,kg,30.0,12000.0,20000.0,42.0
+Parupeneus barberinus,kg,10.0,10000.0,25000.0,83.0
+Parupeneus heptacanthus,kg,10.0,20000.0,30000.0,30.0
+Bankulis,kg,35.0,110.0,170.0,70.0
+Dogho,kg,50.0,150.0,200.0,3.0
+Durado,kg,25.0,100.0,130.0,100.0
+Galunggong,kg,30.0,150.0,200.0,800.0
+Gangis,kg,2.0,200.0,300.0,5.0
+Emperor,kg,16.0,110.0,350.0,250.0
+Lapu lapu,kg,6.0,150.0,250.0,20.0
+Maya maya,kg,6.0,100.0,160.0,10.0
+Goatfish,kg,7.0,130.0,400.0,70.0
+A,kg,15.0,90.0,200.0,50.0
+Swordfish,kg,2.0,100.0,150.0,9.0
+Mullet,kg,70.0,50.0,150.0,400.0
+Wrasse,kg,2.0,100.0,150.0,15.0
+Bream,kg,15.0,70.0,300.0,250.0
+Parrotfish,kg,5.0,100.0,200.0,20.0
+Mahi mahi,kg,10.0,120.0,270.0,2.0
+Snapper,kg,30.0,100.0,300.0,100.0
+Bullet tuna,kg,50.0,90.0,220.0,85.0
+Sardines,kg,500.0,1.0,1000.0,4000.0
+Octopus cyanea,kg,270.0,3000.0,60000.0,200.0
+Epinephelus fuscoguttatus,kg,35.0,20000.0,140000.0,30.0
+Epinephelus maculatus,kg,10.0,15000.0,90000.0,48.0
+Epinephelus cyanopodus,kg,10.0,20000.0,80000.0,30.0
+Cephalopholis sonnerati,kg,45.0,15000.0,180000.0,30.0
+Epinephelus corallicola,kg,30.0,20000.0,140000.0,30.0
+Epinephelus coeruleopunctatus,kg,10.0,25000.0,100000.0,30.0
+Mix Species,kg,60.0,10000.0,20000.0,100.0
+Epinephelus polyphekadion,kg,30.0,20000.0,140000.0,52.0
+Epinephelus spp.,kg,10.0,20000.0,30000.0,30.0
+Uroteuthis duvaucelii,kg,300.0,20000.0,70000.0,150.0
+Caesio cuning,kg,150.0,4000.0,30000.0,1500.0
+Rastrelliger brachysoma,kg,85.0,15000.0,30000.0,120.0
+Selaroides leptolepis,kg,25.0,5000.0,20000.0,85.0
+Lethrinus lentjan,kg,260.0,2000.0,40000.0,659.0
+Scomberomorus commerson,kg,150.0,15000.0,60000.0,52.0
+Lutjanus russellii,kg,10.0,15000.0,30000.0,30.0
+Caranx ignobilis,kg,500.0,10000.0,90000.0,458.0
+Taeniura lymma,kg,350.0,3000.0,40000.0,83.0
+Lethrinus semicinctus,kg,45.0,5000.0,30000.0,90.0
+Cephalopholis sexmaculata,kg,15.0,10000.0,30000.0,30.0
+Sepia latimanus,kg,130.0,2000.0,80000.0,96.0
+Caranx melampygus,kg,35.0,10000.0,50000.0,48.0
+Epinephelus areolatus,kg,75.0,1000.0,130000.0,30.0
+Mixed Live Grouper,kg,115.0,10000.0,30000.0,100.0
+Mixed Fresh Grouper,kg,40.0,10000.0,30000.0,50.0
+molmol,kg,6.0,100.0,300.0,20.0
+Caranguejo do mangal (Scylla serrata),kg,50.0,50000.0,80000.0,100.0
+ubod,kg,5.0,50.0,250.0,25.0
+Bilason,kg,18.0,100.0,250.0,50.0
+Bansikol,kg,15.0,70.0,300.0,150.0
+Budloy,kg,5.0,50.0,250.0,20.0
+Bugkanon,kg,10.0,150.0,200.0,2.0
+Danggit,kg,60.0,80.0,160.0,13.0
+MolMol,kg,6.0,100.0,300.0,20.0
+budboron,kg,35.0,110.0,200.0,20.0
+Sphyraena qenie.,kg,25.0,10000.0,50000.0,36.0
+Carangoides coeruleopinnatus,kg,400.0,10000.0,70000.0,93.0
+Lutjanus bohar,kg,10.0,20000.0,30000.0,40.0
+Lutjanus gibbus,kg,25.0,10000.0,60000.0,250.0
+Pomadasys argyreus,kg,20.0,10000.0,30000.0,30.0
+Epinephelus macrospilos,kg,25.0,25000.0,90000.0,30.0
+Lutjanus argentimaculatus,kg,450.0,10000.0,40000.0,301.0
+Mixed Species,kg,60.0,10000.0,20000.0,100.0
+Carangoides fulvoguttatus,kg,10.0,20000.0,30000.0,30.0
+balo,kg,10.0,140.0,200.0,5.0
+Plectorhinchus chrysotaenia,kg,20.0,15000.0,30000.0,80.0
+Lethrinus olivaceus,kg,25.0,10000.0,50000.0,57.0
+Sphyraena qenie,kg,25.0,10000.0,50000.0,36.0
+bansi,kg,40.0,35.0,200.0,500.0
+danggit,kg,60.0,80.0,160.0,13.0
+bontog,kg,7.0,80.0,120.0,7.0
+baho baho,kg,100.0,60.0,100.0,
+mangagat,kg,4.0,50.0,100.0,25.0
+diano,kg,2.0,140.0,180.0,10.0
+renger,kg,5.0,40.0,100.0,35.0
+Red Snapper,kg,500.0,1.0,1000.0,500.0
+Jimy Hind,kg,50.0,10.0,100.0,100.0
+Kawali,kg,500.0,1.0,1000.0,500.0
+Kingfish,kg,500.0,1.0,1000.0,500.0
+King Mackerel,kg,500.0,1.0,1000.0,500.0
+Lobster,kg,500.0,1.0,1000.0,500.0
+Mahi Mahi,kg,500.0,1.0,1000.0,500.0
+Mangrove Snapper,kg,500.0,1.0,1000.0,500.0
+Mixed Red,kg,500.0,1.0,1000.0,500.0
+Mixed White,kg,500.0,1.0,1000.0,500.0
+Mutton Snapper,kg,500.0,1.0,1000.0,500.0
+Permit,kg,500.0,1.0,1000.0,500.0
+Pompas Jais,kg,500.0,1.0,1000.0,500.0
+Yellowtail Snapper,kg,500.0,1.0,1000.0,500.0
+tangege,kg,2.0,150.0,250.0,5.0
+tangege natural,kg,2.0,150.0,250.0,5.0
+Hyporhamphus quoyi,kg,15.0,10000.0,20000.0,30.0
+Lutjanus carponotatus,kg,10.0,10000.0,20000.0,30.0
+Scarus prasiognathos,kg,45.0,5000.0,50000.0,200.0
+Pentapodus bifasciatus,kg,10.0,20000.0,30000.0,30.0
+Siganus lineatus,kg,10.0,10000.0,20000.0,150.0
+lapu lapu,kg,6.0,150.0,250.0,20.0
+tangege dogho,kg,2.0,150.0,250.0,5.0
+Diagramma pictum,kg,25.0,10000.0,20000.0,30.0
+Scarus rubroviolaceus,kg,30.0,5000.0,20000.0,40.0
+Katsuwonus pelamis,kg,10.0,10000.0,20000.0,30.0
+Thunnus albacares,kg,150.0,10000.0,100000.0,100.0
+Helicolenus barathri,kg,100.0,10000.0,20000.0,30.0
+Crenimugil seheli,kg,10.0,15000.0,30000.0,30.0
+Cetoscarus ocellatus,kg,300.0,10000.0,30000.0,173.0
+Epinephelus faveatus,kg,10.0,40000.0,50000.0,30.0
+Epinephelus bleekeri,kg,10.0,30000.0,40000.0,30.0
+Lethrinus erythracanthus,kg,25.0,10000.0,30000.0,70.0
+Epinephelus coioides,kg,65.0,4000.0,180000.0,30.0
+Paracaesio sordida,kg,15.0,5000.0,20000.0,30.0
+Cephalopholis aurantia,kg,10.0,20000.0,30000.0,30.0
+Lutjanus bengalensis,kg,30.0,15000.0,30000.0,60.0
+Macolor macularis,kg,100.0,10000.0,60000.0,30.0
+Scomberomorus guttatus,kg,110.0,30000.0,50000.0,30.0
+Strongylura incisa,kg,70.0,5000.0,20000.0,100.0
+mangodlong,kg,25.0,120.0,200.0,400.0
+budloy,kg,5.0,50.0,250.0,20.0
+bansikol,kg,15.0,70.0,300.0,150.0
+tilapia,kg,9.0,50.0,100.0,50.0
+bangus,kg,25.0,40.0,350.0,15.0
+bolinao,kg,60.0,40.0,170.0,6000.0
+teke teke,kg,130.0,50.0,100.0,900.0
+kabase,kg,14.0,100.0,200.0,6.0
+Gnathanodon speciosus,kg,50.0,15000.0,50000.0,198.0
+Sepioteuthis lessoniana,kg,300.0,20000.0,70000.0,150.0
+Drepane longimana,kg,20.0,10000.0,20000.0,30.0
+Lethrinus obsoletus,kg,40.0,2000.0,30000.0,800.0
+Plectorhinchus flavomaculatus,kg,50.0,10000.0,50000.0,60.0
+Sepia pharaonis,kg,130.0,2000.0,80000.0,96.0
+Nemipterus balinensoides,kg,70.0,15000.0,50000.0,1000.0
+Hipposcarus longiceps,kg,10.0,10000.0,30000.0,190.0
+Lutjanus erythropterus,kg,10.0,30000.0,80000.0,30.0
+Scarus frenatus,kg,150.0,20000.0,30000.0,80.0
+Plectorhinchus gibbosus,kg,30.0,15000.0,30000.0,30.0
+Gymnocranius frenatus,kg,35.0,25000.0,40000.0,80.0
+Lutjanus rivulatus,kg,20.0,15000.0,30000.0,80.0
+Sepia recurvirostra,kg,130.0,2000.0,80000.0,96.0
+Scylla serrata,kg,50.0,50000.0,80000.0,100.0
+Lethrinus amboinensis,kg,100.0,10000.0,50000.0,100.0
+Monodactylus argenteus,kg,100.0,10000.0,50000.0,100.0
+Chlorurus bleekeri,kg,45.0,5000.0,30000.0,50.0
+Aluterus monoceros,kg,120.0,10000.0,30000.0,200.0
+Tylosurus crocodilus,kg,25.0,5000.0,20000.0,30.0
+Plectorhinchus chaetodonoides,kg,15.0,10000.0,70000.0,30.0
+Platax pinnatus,kg,10.0,5000.0,20000.0,30.0
+Chlorurus sordidus,kg,20.0,15000.0,30000.0,30.0
+Carangoides malabaricus,kg,350.0,3000.0,40000.0,165.0
+Mulloidichthys vanicolensis,kg,15.0,10000.0,20000.0,150.0
+Lobotes surinamensis,kg,10.0,5000.0,20000.0,30.0
+Symphorichthys spilurus,kg,25.0,10000.0,30000.0,50.0
+Gymnothorax javanicus,kg,25.0,5000.0,20000.0,30.0
+Lutjanus timoriensis,kg,20.0,50000.0,60000.0,32.0
+bilason,kg,18.0,100.0,250.0,50.0
+bakase,kg,105.0,20.0,320.0,200.0
+lapis,kg,5.0,100.0,350.0,15.0
+danget,kg,110.0,100.0,180.0,1500.0
+Baga,kg,15.0,90.0,200.0,50.0
+Black Snapper,lbs,50.0,,,
+Balo,kg,5.0,140.0,200.0,5.0
+solid,kg,10.0,150.0,200.0,
+Siganus doliatus,kg,100.0,4000.0,20000.0,90.0
+Carangoides dinema,kg,10.0,20000.0,30000.0,30.0
+Alectis ciliaris,kg,100.0,50000.0,50000.0,96.0
+Carangoides chrysophrys,kg,20.0,15000.0,20000.0,30.0
+Carangoides ferdau,kg,20.0,15000.0,20000.0,30.0
+Caranx tille,kg,480.0,15000.0,30000.0,144.0
+Scarus schlegeli,kg,30.0,10000.0,30000.0,86.0
+Scarus rivulatus,kg,20.0,5000.0,20000.0,30.0
+Lutjanus decussatus,kg,100.0,20000.0,30000.0,150.0
+Lethrinus erythropterus,kg,45.0,10000.0,30000.0,164.0
+Lutjanus ehrenbergii,kg,15.0,20000.0,40000.0,30.0
+Cheilinus trilobatus,kg,10.0,10000.0,20000.0,31.0
+Plectorhinchus schotaf,kg,15.0,7000.0,15000.0,30.0
+Plectorhinchus lineatus,kg,20.0,5000.0,20000.0,49.0
+Lambay (Portunus pelagicus),kg,15.0,250.0,500.0,40.0
+Crabs (Portunus pelagicus),kg,15.0,250.0,500.0,40.0
+Thenus orientalis,kg,10.0,25000.0,80000.0,30.0
+Jurel Ojon,lbs,300.0,15.0,40.0,100.0
+Pejepluma,lbs,100.0,15.0,35.0,20.0
+King Fish,lbs,60.0,20.0,35.0,
+Curbina,lbs,100.0,25.0,40.0,100.0
+Tilapia,lbs,20.0,15.0,30.0,
+Ronco,lbs,200.0,15.0,35.0,50.0
+Pugalo,kg,2.0,150.0,300.0,10.0
+Kulambang,kg,5.0,100.0,300.0,5.0
+crab,kg,15.0,250.0,500.0,40.0
+andohaw,kg,30.0,120.0,150.0,
+Tangigue,kg,15.0,200.0,300.0,5.0
+Mamsa,kg,5.0,200.0,300.0,20.0
+Lali,kg,2.0,100.0,150.0,2.0
+Andohao,kg,30.0,120.0,150.0,
+TAbangko,kg,10.0,50.0,150.0,50.0
+Actinopyga lecanora,kg,50.0,20000.0,200000.0,50.0
+Mangampahan,kg,5.0,200.0,300.0,3.0
+Chlorurus bowersi,kg,100.0,20000.0,30000.0,80.0
+Choerodon schoenleinii,kg,10.0,10000.0,20000.0,30.0
+Baho ulo,kg,6.0,200.0,250.0,
+Lethrinus atkinsoni,kg,250.0,5000.0,20000.0,180.0
+Scolopsis temporalis,kg,100.0,20000.0,30000.0,51.0
+Psammoperca waigiensis,kg,100.0,20000.0,30000.0,150.0
+Scarus niger,kg,15.0,10000.0,30000.0,49.0
+Abalistes stellaris,kg,100.0,20000.0,30000.0,68.0
+Caesio xanthonota,kg,100.0,20000.0,30000.0,90.0
+Acanthurus lineatus,kg,100.0,20000.0,30000.0,63.0
+Bonito,lbs,60.0,20.0,30.0,
+Fish,kg,5.0,200.0,300.0,20.0
+crabs (Portunus pelagicus),kg,15.0,250.0,500.0,40.0
+Crabs,kg,15.0,250.0,500.0,40.0
+Pomadasys argenteus,kg,10.0,30000.0,40000.0,30.0
+Carangoides hedlandensis,kg,10.0,35000.0,50000.0,30.0
+Aphareus rutilans,kg,50.0,5000.0,20000.0,30.0
+Scarus spinus,kg,10.0,25000.0,40000.0,30.0
+Acanthurus xanthopterus,kg,55.0,10000.0,30000.0,45.0
+fish,kg,10.0,50.0,150.0,50.0
+Strongylura leiura,kg,10.0,5000.0,20000.0,30.0
+Priacanthus macracanthus,kg,30.0,10000.0,20000.0,1000.0
+Taeniurops meyeni,kg,60.0,5000.0,30000.0,75.0
+Setipinna tenuifilis,kg,100.0,20000.0,30000.0,50.0
+Bohadschia argus,kg,10.0,20000.0,30000.0,30.0
+Stichopus variegatus,kg,10.0,10000.0,20000.0,30.0
+Etelis coruscans,kg,400.0,10000.0,40000.0,92.0
+Etelis radiosus,kg,10.0,15000.0,50000.0,30.0
+Tiburón,lbs,50.0,15.0,25.0,
+Nemipterus furcosus,kg,70.0,15000.0,50000.0,1000.0
+Etelis carbunculus,kg,15.0,8000.0,15000.0,30.0
+Epinephelus amblycephalus,kg,40.0,25000.0,40000.0,30.0
+Sargocentron diadema,kg,15.0,20000.0,30000.0,48.0
+Plicofollis dussumieri,kg,10.0,10000.0,30000.0,30.0
+Sardinella gibbosa,kg,25.0,5000.0,20000.0,80.0
+danngit,kg,60.0,80.0,160.0,13.0
+5,kg,35.0,60.0,190.0,
+Pusit,kg,100.0,80.0,180.0,
+galonggong,kg,25.0,70.0,90.0,450.0
+gangis-small,kg,2.0,200.0,300.0,5.0
+mamsa,kg,5.0,200.0,300.0,20.0
+masa,kg,5.0,200.0,300.0,20.0
+Blanco/Culila,lbs,300.0,15.0,25.0,
+Epinephelus quoyanus,kg,10.0,30000.0,40000.0,30.0
+Caranx papuensis,kg,20.0,10000.0,30000.0,30.0
+Scarus dimidiatus,kg,10.0,10000.0,20000.0,250.0
+Istiompax indica,kg,150.0,25000.0,100000.0,50.0
+gurayan,kg,110.0,40.0,300.0,1500.0
+panit,kg,90.0,100.0,200.0,800.0
+tangigue,kg,130.0,50.0,400.0,800.0
+Macarela,lbs,30.0,20.0,50.0,10.0
+Blanco,lbs,200.0,20.0,25.0,
+Camarones,lbs,200.0,80.0,150.0,
+Sabalo,lbs,70.0,25.0,35.0,
+mutton snapper,kg,300.0,25.0,35.0,
+Monotaxis grandoculis,kg,15.0,20000.0,25000.0,30.0
+Epinephelus fasciatus,kg,20.0,20000.0,50000.0,72.0
+Epinephelus spilotoceps,kg,10.0,15000.0,30000.0,30.0
+Atule mate,kg,75.0,15000.0,30000.0,100.0
+Siganus punctatissimus,kg,10.0,20000.0,30000.0,30.0
+Planiliza subviridis,kg,15.0,2000.0,60000.0,35.0
+MERO,lbs,200.0,30.0,60.0,
+Seriola rivoliana,kg,10.0,35000.0,50000.0,30.0
+Lutjanus monostigma,kg,15.0,20000.0,25000.0,30.0
+Caranx sexfasciatus,kg,10.0,10000.0,20000.0,30.0
+Myripristis violacea,kg,15.0,10000.0,20000.0,93.0
+Paracaesio xanthura,kg,10.0,10000.0,30000.0,30.0
+Priacanthus hamrur,kg,15.0,10000.0,15000.0,30.0
+Cetoscarus bicolor,kg,10.0,15000.0,30000.0,30.0
+Carangoides gymnostethus,kg,10.0,15000.0,30000.0,30.0
+Pterocaesio tile,kg,10.0,10000.0,20000.0,50.0
+Lutjanus fulvus,kg,15.0,20000.0,25000.0,30.0
+Balistoides viridescens,kg,10.0,10000.0,20000.0,30.0
+aloy,kg,150.0,100.0,130.0,
+Aprion virescens,kg,30.0,10000.0,20000.0,30.0
+Acanthocybium solandri,kg,200.0,15000.0,50000.0,100.0
+Rock Hind,lbs,500.0,1.0,1000.0,500.0
+Nkhampa,kg,,120.0,,
+Megalaspis cordyla,kg,50.0,15000.0,50000.0,100.0
+Sphyraena putnamae,kg,25.0,10000.0,30000.0,30.0
+Rachycentron canadum,kg,20.0,10000.0,30000.0,20.0
+Panulirus argus,lbs,100.0,150.0,460.0,
+Peje Chancho,lbs,100.0,25.0,40.0,
+Pardo,lbs,200.0,25.0,40.0,
+Ojo Amarillo,lbs,100.0,25.0,40.0,
+Bar jack,lbs,100.0,20.0,35.0,
+Yarano,lbs,60.0,20.0,30.0,
+Palometa,lbs,20.0,20.0,30.0,
+Macre de mar,lbs,50.0,20.0,30.0,
+Uroteuthis singhalensis,kg,300.0,20000.0,70000.0,150.0
+Grupa,lbs,100.0,25.0,50.0,10.0
+Sciades herzbergii,kg,50.0,1.0,50.0,
+Paleomolidae,kg,50.0,1.0,50.0,
+Penaeidae,kg,50.0,1.0,50.0,
+Ucides cordatus,kg,,,,1000.0
+Cynoscion acoupa,kg,100.0,1.0,100.0,
+Mugil brevirostris,kg,100.0,1.0,100.0,
+Mugil curema,kg,100.0,1.0,100.0,
+Hoplosternum littorale,kg,100.0,1.0,100.0,
+Hoplias,kg,100.0,1.0,100.0,
+Selar boops,kg,,5000.0,25000.0,100.0
+Symphorus nematophorus,kg,,10000.0,30000.0,50.0
+Scarus psittacus,kg,,10000.0,30000.0,50.0
+Sargocentron rubrum,kg,,20000.0,30000.0,48.0
+Myripristis adusta,kg,,10000.0,20000.0,30.0
+Portunus pelagicus,kg,50.0,10000.0,80000.0,100.0
+Scarus ghobban,kg,,10000.0,30000.0,50.0
+TANGIGI,kg,60.0,0.0,350.0,10.0
+Plectropomus pessuliferus,kg,35.0,10000.0,450000.0,30.0
+Cephalopholis nigripinnis,kg,10.0,15000.0,200000.0,30.0
+Epinephelus malabaricus,kg,75.0,10000.0,150000.0,30.0
+Panulirus ornatus,kg,100.0,10000.0,300000.0,100.0
+Thunnus obesus,kg,150.0,10000.0,100000.0,100.0
+Coryphaena hippurus,kg,100.0,10000.0,60000.0,50.0
+Elagatis bipinnulata,kg,100.0,10000.0,80000.0,50.0
+Decapterus macarellus,kg,150.0,10000.0,50000.0,100.0
+Panulirus versicolor,kg,100.0,10000.0,300000.0,100.0
+Panulirus homarus,kg,100.0,10000.0,300000.0,100.0
+Trichiurus lepturus,kg,50.0,10000.0,85000.0,50.0
+Harpiosquilla raphidea,kg,100.0,20000.0,50000.0,100.0
+Camaron,lbs,200.0,30.0,130.0,
+RockFish,lbs,20.0,30.0,50.0,10.0

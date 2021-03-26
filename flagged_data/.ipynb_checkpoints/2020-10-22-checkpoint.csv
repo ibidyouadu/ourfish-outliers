@@ -1,0 +1,3 @@
+id,date,buyer_id,buying_unit_id,fisher_id,weight,count,size,volume,collect_weight,weight_units,weight_si,collect_count,collect_volume,volume_units,volume_si,collect_price,price_currency,price_exponent,collect_category,range,rangevalue,buying_unit,total_price,unit_price,country,weight_kg,weight_lbs
+679463b3-b21c-42db-a761-6d91e0ee7cf0,2020-10-22 04:58:32-04,412,5623,251952,11.8,8,,0,True,kg,1,True,False,,0,True,IDR,0,False,0,0,Plectorhinchus flavomaculatus,1062000,90000,IDN,11.8,26.019000000000002
+2edd10dd-d3f2-4c86-9851-d63c593ab868,2020-10-22 05:00:48-04,412,5623,250996,0.8,1,,0,True,kg,1,True,False,,0,True,IDR,0,False,0,0,Plectorhinchus flavomaculatus,72000,90000,IDN,0.8,1.7640000000000002
