@@ -8,14 +8,14 @@ import tkinter as tk
 import tkinter.messagebox as messagebox
 
 def send_error_log(logpath):
-    """ 
+    """
     Send an email to Angel with Python error log.
     """
     cfg = configparser.ConfigParser()
     cfg.read('config.ini')
-    bot_email = cfg.get('email', 'address')
-    password = cfg.get('email', 'password')
-    adu_email = cfg.get('email', 'adu')
+    bot_email = cfg.get('email', 'bot_email')
+    password = cfg.get('email', 'bot_password')
+    adu_email = cfg.get('email', 'adu_email')
 
     port = 465 #for conntecting to gmail server
     # create secure SSL context ie security configuration
@@ -28,29 +28,29 @@ def send_error_log(logpath):
     body = """
     AAAarrRrGGgghH! *cough* I;m dying *cooough* soomething went wrong...
     The error log, please... look for answers,.. in..side........
-    
+
     Have a nice day!
     Outlier Bot (RIP)
-    """ 
+    """
 
     # build the MIMEMultipart object which will later be converted to text
     msg = MIMEMultipart()
     msg['From'] = from_address
     msg['To'] = to_address
     msg['Subject'] = subject
-    
+
     # add the message body
     msg.attach(MIMEText(body, "plain"))
-    
+
     # attach csv file
     fname = str(logpath.name)
     with open(logpath, 'rb') as f:
         msg.attach(MIMEApplication(f.read(), Name=fname))
-    
+
     with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
         server.login(from_address, password)
         server.sendmail(from_address, to_address, msg.as_string())
-    
+
 def print_error_message(reason=None):
     root = tk.Tk()
     root.withdraw()

@@ -18,13 +18,13 @@ def prompt_user(window_title, prompt, for_password=False):
     else:
         inp = simpledialog.askstring(window_title, prompt, parent=root)
     root.destroy()
-    
+
     return inp
 
 def login():
     """
     Prompt user for pg login info using tkinter gui
-    
+
     Returns:
     user (str)
         pg user name to use to connect to pg server
@@ -36,7 +36,7 @@ def login():
 
     db = prompt_user("Postgres login",
                         "Please enter the name of the database. (e.g. ourfish)")
-                        
+
     user = prompt_user("Postgres Login",
                         "Please enter your user name.")
 
@@ -55,7 +55,7 @@ def query_data(host, db, user, password, date=None):
         database=db,
         user=user,
         password=password)
-    
+
     cur = conn.cursor()
     if date is None: # if there is no archived data already
         date = '2019-01-01'
@@ -72,15 +72,15 @@ def query_data(host, db, user, password, date=None):
         WHERE date::date = \'{}\'""".format(date)
     copy_sql = "COPY ("+sql+") TO STDOUT WITH CSV HEADER"
     csv_path = Path('./data/postgres_dump.csv')
-    
-    
+
+
     with open(str(csv_path), 'w') as f:
         cur.copy_expert(copy_sql, f)
-    
+
     cur.close()
     conn.close()
-    
-    return pd.read_csv(str(csv_path))
+
+    return pd.read_csv(str(csv_path), engine='python')
 
 def unravel(row_data):
     """
@@ -93,7 +93,7 @@ def unravel(row_data):
     for ii in range(len(row_data)):
         row_data[ii] = row_data[ii].split(': ')
         row_data[ii][0] = row_data[ii][0].replace('"', '')
-        
+
         val = row_data[ii][1]
         if val == '""':
             val = np.nan
@@ -104,7 +104,7 @@ def unravel(row_data):
         else:
             val = ast.literal_eval(val)
         row_data[ii][1] = val
-    
+
     return row_data
 
 def clean_postgres_data(pg_data):
@@ -117,11 +117,13 @@ def clean_postgres_data(pg_data):
     that it contains.
     """
     pg_data['data'] = pg_data['data'].apply(unravel)
-    
-    cols = [record[0] for record in pg_data.iloc[0]['data']]
+
+    cols = ['name', 'count', 'weight', 'weight_units', \
+    'price_currency', 'unit_price', 'total_price']
+
     # this will contain lists that will turn into new columns of pg_data
     data_dict = {}
-    
+
     for col in cols:
         data_dict[col] = []
 
@@ -130,16 +132,16 @@ def clean_postgres_data(pg_data):
         keys = [record[0] for record in data]
         vals = [record[1] for record in data]
         row_dict = {k: v for (k,v) in zip(keys, vals)}
-    
+
         for col in cols:
             data_dict[col].append(row_dict[col])
-    
+
     for col in cols:
         pg_data[col] = data_dict[col]
-        
+
     pg_data = pg_data.drop(columns='data') # no longer need that poorly formatted col
     pg_data = pg_data.rename(mapper={'name':'buying_unit'}, axis=1)
-    
+
     # use currencies to create country col
     country_currency_dict = {
         'IDR': 'IDN',
@@ -154,7 +156,7 @@ def clean_postgres_data(pg_data):
 
     # create country column
     pg_data['country'] = pg_data['price_currency'].apply(lambda x: country_currency_dict[x])
-    
+
     # fix weight_units in the same manner that is done in clean_fish.py
     pg_data['weight_units'] = pg_data['weight_units'].apply(fix_weight_units)
 
@@ -176,7 +178,7 @@ def clean_postgres_data(pg_data):
     lbs_conv = np.array(lbs_conv)
     pg_data['weight_kg'] = pg_data['weight']*kg_conv
     pg_data['weight_lbs'] = pg_data['weight']*lbs_conv
-    
+
     pg_data = pg_data[~pg_data.duplicated()]
 
     return pg_data

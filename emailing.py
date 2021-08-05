@@ -16,17 +16,17 @@ def ask_email(window_title, prompt):
     root.withdraw()
     inp = simpledialog.askstring(window_title, prompt, parent=root)
     root.destroy()
-    
+
     return inp
 
 def ping(subject, body):
-    
+
     # get email login info from config.ini
     cfg = configparser.ConfigParser()
     cfg.read('config.ini')
-    bot_email = cfg.get('email', 'address')
-    password = cfg.get('email', 'password')
-    
+    bot_email = cfg.get('email', 'bot_email')
+    password = cfg.get('email', 'bot_password')
+
     port = 465
     context = ssl.create_default_context()
     from_address = bot_email
@@ -36,18 +36,18 @@ def ping(subject, body):
     msg['To'] = to_address
     msg['Subject'] = subject
     msg.attach(MIMEText(body, "plain"))
-    
+
     with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
         server.login(from_address, password)
         server.sendmail(from_address, to_address, msg.as_string())
-    
+
 def email_results(email, num_flagged, flagged_path, flagged_fname, images):
-    """ 
+    """
     Send an email with the following information:
 
         1. All the information from the flagged records (so the whole rows)
         2. unit_price vs weight/count log-plots in the form of attachments
-    
+
     Parameters
     ----------
     email (str)
@@ -68,8 +68,8 @@ def email_results(email, num_flagged, flagged_path, flagged_fname, images):
     # get email login info from config.ini
     cfg = configparser.ConfigParser()
     cfg.read('config.ini')
-    bot_email = cfg.get('email', 'address')
-    password = cfg.get('email', 'password')
+    bot_email = cfg.get('email', 'bot_address')
+    password = cfg.get('email', 'bot_password')
 
     # components of the email message to put into MIMEMultipart object
     from_address = bot_email
@@ -79,7 +79,7 @@ def email_results(email, num_flagged, flagged_path, flagged_fname, images):
     body = """
     Good day! We counted %d record(s) from yesterday flagged as potential outlier(s).
     Please take a look at the csv/plot data, attached. As a reminder, the plot data is in a shifted log scale, so -1 on the graph means that the value is actually 0.
-    
+
     Have a nice day!
     Outlier Bot
     """ % num_flagged
@@ -109,12 +109,12 @@ def email_results(email, num_flagged, flagged_path, flagged_fname, images):
         with open(img_path, 'rb') as f:
             # initiate MIME object for img attachment
             mime = MIMEBase('image', 'png', filename=img_fname)
-    
+
             # add metadata
             mime.add_header('Content-disposition', 'attachment', filename=img_fname)
             mime.add_header('X-attachment-id', x_attach_id)
             mime.add_header('Content-ID', content_id)
-    
+
             # prepare the object in format compatible w msg, then attach to msg
             mime.set_payload(f.read())
             encoders.encode_base64(mime)
