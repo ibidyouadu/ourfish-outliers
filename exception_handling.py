@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 import tkinter as tk
 import tkinter.messagebox as messagebox
+import configparser
 
 def send_error_log(logpath):
     """
